@@ -10,6 +10,9 @@ npx expo install --check
 npm start
 ```
 
+If PowerShell's execution policy blocks `npm` or `npx`, use `npm.cmd` and
+`npx.cmd` instead; no execution-policy change is needed.
+
 Choose a week from the app's menu. The project uses Expo SDK 57 because Expo's
 November 2026 guidance identifies that SDK as compatible with Expo Go during
 the SDK 58 transition. Expo Go compatibility changes; check the
@@ -29,7 +32,8 @@ in `src/weeks.js`. The textbook's web examples are linked for concepts and
 must not be confused with React Native components. The mobile chapters are
 from the instructor's [React Projects fork](https://github.com/jpcst52/React-Projects-Second-Edition);
 Chapter 8 has been migrated from SDK 44 to SDK 57 and tested in a Windows
-browser. Chapter 9 remains unmigrated.
+browser. Chapter 9 has also been migrated and its login, post-detail and
+logout flows tested in a Windows browser; image selection needs device testing.
 
 | Week | Course example | Textbook author material |
 |---|---|---|
@@ -49,7 +53,8 @@ browser. Chapter 9 remains unmigrated.
 | 14 | Project task flow | [Chapter 9](https://github.com/jpcst52/React-Projects-Second-Edition/tree/main/Chapter09) |
 
 The author code is linked rather than copied here. The instructor's fork has
-not yet been verified on Android or iOS with a current Expo Go app.
+not yet been verified on Android or iOS with a current Expo Go app. Its older
+web chapters have not been verified with this course's Node version.
 
 ## Dependency review
 
