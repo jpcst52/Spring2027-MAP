@@ -13,6 +13,19 @@ npm start
 If PowerShell's execution policy blocks `npm` or `npx`, use `npm.cmd` and
 `npx.cmd` instead; no execution-policy change is needed.
 
+## App preview
+
+The web build presents a scrollable selector for the weekly examples:
+
+![Mobile Programming Lab weekly example selector](docs/screenshots/weekly-menu.png)
+
+For example, week 5 shows validation feedback for an empty task:
+
+![Week 5 form displaying an empty-title validation message](docs/screenshots/week-05-validation.png)
+
+See the [weekly example guide](src/weeks/README.md) for another screen and
+the source layout.
+
 Choose a week from the app's menu. The project uses Expo SDK 57 because Expo's
 November 2026 guidance identifies that SDK as compatible with Expo Go during
 the SDK 58 transition. Expo Go compatibility changes; check the
