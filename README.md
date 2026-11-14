@@ -28,7 +28,8 @@ Each week's original example is in `src/weeks/week-NN.js`; the entry menu is
 in `src/weeks.js`. The textbook's web examples are linked for concepts and
 must not be confused with React Native components. The mobile chapters are
 from the instructor's [React Projects fork](https://github.com/jpcst52/React-Projects-Second-Edition);
-its original SDK 44 examples have not yet been migrated.
+Chapter 8 has been migrated from SDK 44 to SDK 57 and tested in a Windows
+browser. Chapter 9 remains unmigrated.
 
 | Week | Course example | Textbook author material |
 |---|---|---|
@@ -48,7 +49,7 @@ its original SDK 44 examples have not yet been migrated.
 | 14 | Project task flow | [Chapter 9](https://github.com/jpcst52/React-Projects-Second-Edition/tree/main/Chapter09) |
 
 The author code is linked rather than copied here. The instructor's fork has
-not yet been verified to run unchanged with a current Expo Go app.
+not yet been verified on Android or iOS with a current Expo Go app.
 
 ## Dependency review
 
