@@ -47,6 +47,9 @@ from the instructor's [React Projects fork](https://github.com/jpcst52/React-Pro
 Chapter 8 has been migrated from SDK 44 to SDK 57 and tested in a Windows
 browser. Chapter 9 has also been migrated and its login, post-detail and
 logout flows tested in a Windows browser; image selection needs device testing.
+Chapter 1's web example has been updated and browser-tested with simulated
+API responses; see its [setup notes](https://github.com/jpcst52/React-Projects-Second-Edition/blob/main/Chapter01/SPRING-2027.md)
+for dependency and bundle-size warnings.
 
 | Week | Course example | Textbook author material |
 |---|---|---|
@@ -67,7 +70,8 @@ logout flows tested in a Windows browser; image selection needs device testing.
 
 The author code is linked rather than copied here. The instructor's fork has
 not yet been verified on Android or iOS with a current Expo Go app. Its older
-web chapters have not been verified with this course's Node version.
+web chapters other than Chapter 1 have not been verified with this course's
+Node version.
 
 ## Dependency review
 
